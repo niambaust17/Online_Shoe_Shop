@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255, 182, 193, 0.2);
+}
+#navbar-all-link a {
+  color: #3f3e94;
+}
+#navbar-all-link  a:hover {
+  color: rgba(218, 165, 32, 0.7);
+}
+h1 {
+  color: #3f3e94;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.colored-text {
+  color: rgba(218, 165, 32, 0.7);
+}
+.banner {
+  background-color: rgba(255, 182, 193, 0.2);
+  height: 95vh;
+}
+.product-detail {
+  border: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.product-detail > img {
+  height: 350px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+.product-detail > img:hover {
+  background-color: #ffffff;
+  transform: rotate(4.14deg);
+}
+.product-footer {
+  border-top: 0;
+  background-color: #ffffff;
+}
+.single-about {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.signup {
+  background-color: rgba(255, 182, 193, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 20px;
+  padding: 20px;
+}
+@media (max-width: 575.98px) {
+  .banner {
+    height: 100%;
+  }
+  .banner .row,
+  .about > .row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .product h1 {
+    text-align: center;
+  }
+  .single-about {
+    text-align: center;
+  }
+}
